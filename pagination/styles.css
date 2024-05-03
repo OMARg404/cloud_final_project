@@ -1,0 +1,151 @@
+@font-face {
+    font-family: CoffeeHealing;
+    src: url(fonts/CoffeeHealing-1GrKe.ttf);
+}
+@font-face {
+    font-family: NatureBeauty;
+    src: url(fonts/NatureBeautyPersonalUse-9Y2DK.ttf);
+}
+@font-face {
+    font-family: CitizenCarto;
+    src: url(fonts/CitizenCarto-6Ry41.ttf);
+}
+@font-face {
+    font-family: AnkhSanctuary;
+    src: url(fonts/AnkhSanctuary-PVK0B.ttf);
+}
+@font-face {
+    font-family: Katerlin;
+    src: url(fonts/Katerlin-51zjB.ttf);
+}
+
+
+#s1{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(VGif/6acd0780a4c693b2cf8da52b5c44b18e.gif);
+    background-size: cover;
+}
+#s2{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(VGif/1631388545.cyber-ogurchik_1123-1.gif);
+    background-size: cover;
+}
+#s3{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(VGif/undefined\ -\ Imgur.gif);
+    background-size: cover;
+}
+#s4{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(VGif/bg_79.gif);
+    background-size: cover;
+}
+#s5{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(VGif/552ec189475f1d337391b02d6b0b9965.gif);
+    background-size: cover;
+}
+.text{
+    color: whitesmoke;
+    font-family: NatureBeauty;
+    font-weight: lighter;
+}
+.panel {
+    width: 90%; /* Adjust the width as needed */
+    margin: 30px auto; /* Center the panel horizontally */
+    padding: 20px;
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.068);
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pagination{
+    text-align: center;
+}
+
+.pagination a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 16px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.pagination a.active{
+    background-color: slateblue;
+    padding: 6px 17px;
+    border-radius: 20px;
+    border: none;
+}
+.pagination a:hover.active{
+    background-color: rgba(105, 90, 205, 0.767);
+    padding: 6px 17px;
+    border-radius: 20px;
+    border: none;
+}
+.pagination a:hover:not(.active){
+    background-color: gainsboro;
+}
+
+.corner-image {
+    float: right; /* Float the image to the right */
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.panel h1 {
+    font-size: 68px;
+    margin-bottom: 10px;
+    font-family: CoffeeHealing;
+    font-weight: lighter;
+}
+
+.panel p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.panel h2{
+    font-family: Katerlin;
+    font-size: 32px;
+}
+.panel h3{
+    font-family: CitizenCarto;
+    font-size: 21px;
+}
+.panel h5{
+    font-family: cursive;
+    font-size: 19px;
+}
+.panel address{
+    font-family: AnkhSanctuary;
+}
